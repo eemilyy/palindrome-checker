@@ -1,5 +1,4 @@
-#MODO EASY
-
+#Usando um método da class String
 def verificarPalavra(palavra)
     novaPalavra = palavra.reverse
 
