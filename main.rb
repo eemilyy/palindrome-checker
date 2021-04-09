@@ -1,8 +1,9 @@
 #Usando um método da class String
 def verificarPalavra(palavra)
-    novaPalavra = palavra.reverse
+    #novaPalavra = palavra.reverse
+    #pode usar em uma unica linha para fazer a validação dos dados
 
-    novaPalavra == palavra ? (puts "A palavra é um palindrome\n#{palavra} - #{novaPalavra}") : (puts "A palavra não é um palindrome\n#{palavra} - #{novaPalavra}")
+    palavra == palavra.reverse ? (puts "A palavra É um palíndromo\n#{palavra} - #{palavra.reverse}") : (puts "A palavra NÃO é um palíndromo\n#{palavra} - #{palavra.reverse}")
 
 end
 
